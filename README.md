@@ -14,6 +14,6 @@ Punic fails to checkout the contents of the dependencies into the Carthage/Check
 
 ## Expected
 
-Punic should checkout the contents of the dependencies into the Carthage/Checkout directory. Essentially, the same result as `punic update` but without the build step. 
+Punic should checkout the contents of the dependencies into the Carthage/Checkout directory.
 
 It's worth noting that this same behavior is also reproducible by running `punic resolve --fetch`.
